@@ -1,0 +1,636 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+*{
+    text-decoration: none;
+}
+
+/*-------------------------------------------------END OF CSS RESET-------------------------------------------------*/
+
+@font-face {
+    font-family: LatoFontRegular;
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoFontLightItalic;
+    src: url(fonts/Lato/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: LatoFontBold;
+    src: url(fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoFontItalic;
+    src: url(fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: AirbagFont;
+    src: url(fonts/Airbag-Regular.otf);
+}
+
+body{
+    background-color: #363636;
+}
+
+#container{
+    background-color: #FFF;
+    width: 1000px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.loginRegister p{
+    background-color: #363636;
+    font-family: LatoFontRegular;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+#blogTitle{
+    background-color: #515151;
+}
+
+#blogTitle h1 a{
+    font-weight: lighter;
+    font-size: 120px;
+    font-family: AirbagFont;
+    text-align: center;
+    color: white;
+    
+}
+
+#blogTitle h1{
+    padding: 50px;
+    text-align: center;
+}
+
+#header{
+    float: right;
+    width: 325px;
+}
+
+#archive{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: LatoFontRegular;
+    border: 2px black dashed;
+}
+
+#archive ul{
+    margin-left:20px;
+    list-style-type: none;
+    margin-top: 15px;
+    list-style-type: none;
+    color: #B7B7B7;
+    margin-bottom: 15px;
+}
+
+#archive>ul>li{
+    list-style-type: none;
+    color: #B7B7B7;
+    margin-top: 15px;
+}
+
+#archive>ul>li>ul>li{
+    margin-top: 15px;
+}
+
+#archive>ul>li>ul>li>ul>li{
+    margin-top: 15px;
+}
+
+#archive>ul>li>span, #archive>ul>li>ul>li>span{
+    color: black;
+}
+
+
+
+#archive h1, #membersFeed h1, #instagramFeed h1 {
+    font-family: LatoFontRegular;
+    font-size: 25px;
+    text-align: center;
+    border: 1px black solid;
+    padding: 7px;
+    margin: 15px 25px 25px 25px;
+    color: #B7B7B7;
+}
+
+#membersFeed{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: LatoFontRegular;
+    border: 2px black dashed;
+}
+#membersFeed>p{
+    font-family: LatoFontItalic;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+#membersFeed>p>span{
+   color: #72B8FF;
+}
+
+
+#membersFeed>div{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 12px;
+}
+
+#memberIcon1{
+    background-image: url(images/Member1.png);
+    background-size: cover;
+}
+#memberIcon2{
+    background-image: url(images/Member2.png);
+    background-size: cover;
+}
+#memberIcon3{
+    background-image: url(images/Member3.png);
+    background-size: cover;
+}
+#memberIcon4{
+    background-image: url(images/Member4.png);
+    background-size: cover;
+}
+#memberIcon5{
+    background-image: url(images/Member5.png);
+    background-size: cover;
+}
+#memberIcon6{
+    background-image: url(images/Member6.png);
+    background-size: cover;
+}
+#memberIcon7{
+    background-image: url(images/Member7.png);
+    background-size: cover;
+}
+#memberIcon8{
+    background-image: url(images/Member8.png);
+    background-size: cover;
+}
+#memberIcon9{
+    background-image: url(images/Member9.png);
+    background-size: cover;
+}
+#memberIcon10{
+    background-image: url(images/Member10.png);
+    background-size: cover;
+}
+#memberIcon11{
+    background-image: url(images/Member11.png);
+    background-size: cover;
+}
+#memberIcon12{
+    background-image: url(images/Member12.png);
+    background-size: cover;
+}
+#memberIcon13{
+    background-image: url(images/Member13.png);
+    background-size: cover;
+}
+#memberIcon14{
+    background-image: url(images/Member14.png);
+    background-size: cover;
+}
+#memberIcon15{
+    background-image: url(images/Member15.png);
+    background-size: cover;
+}
+#memberIcon16{
+    background-image: url(images/Member16.png);
+    background-size: cover;
+}
+
+#youtube{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: LatoFontRegular;
+  /*  border: 2px black dashed;*/
+}
+
+#youtube p{
+    font-family: LatoFontItalic;
+    text-align: center;
+}
+
+#youtube h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: AirbagFont;
+    color: #7E7E7E;
+
+}
+#subscribeIconImage{
+    background-image: url(images/youtubeimage.png);
+    width: 300px;
+    height: 125px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#instagramFeed{
+    margin-top: 20px;    
+    margin-right: 20px;
+    font-family: LatoFontRegular;
+    border: 2px black dashed;
+}
+
+#instagramIcon1{
+    background-image: url(images/Insta1.png);
+    background-size: cover; 
+}
+#instagramIcon2{
+    background-image: url(images/Insta2.png);
+    background-size: cover; 
+}
+#instagramIcon3{
+    background-image: url(images/Insta3.png);
+    background-size: cover; 
+}
+#instagramIcon4{
+    background-image: url(images/Insta4.png);
+    background-size: cover; 
+}
+#instagramIcon5{
+    background-image: url(images/Insta5.png);
+    background-size: cover; 
+}
+#instagramIcon6{
+    background-image: url(images/Insta6.png);
+    background-size: cover; 
+}
+#instagramIcon7{
+    background-image: url(images/Insta7.png);
+    background-size: cover; 
+}
+#instagramIcon8{
+    background-image: url(images/Insta8.png);
+    background-size: cover; 
+}
+#instagramIcon9{
+    background-image: url(images/Insta9.png);
+    background-size: cover; 
+}
+#instagramIcon10{
+    background-image: url(images/Insta10.png);
+    background-size: cover; 
+}
+#instagramIcon11{
+    background-image: url(images/Insta11.png);
+    background-size: cover; 
+}
+#instagramIcon12{
+    background-image: url(images/Insta12.png);
+    background-size: cover; 
+}
+#instagramIcon13{
+    background-image: url(images/Insta13.png);
+    background-size: cover; 
+}
+#instagramIcon14{
+    background-image: url(images/Insta14.png);
+    background-size: cover; 
+}
+#instagramIcon15{
+    background-image: url(images/Insta15.png);
+    background-size: cover; 
+}
+#instagramIcon16{
+    background-image: url(images/Insta16.png);
+    background-size: cover; 
+}
+
+#instagramFeed>div{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 12px;
+}
+
+#instagramFeed p{
+    font-family: LatoFontItalic;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.post{
+    border: 2px black dashed;
+    float: left;
+    width: 630px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.post>img{
+    width: 610px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+
+.post>img:hover{
+    opacity: 0.7;
+}
+
+.post h1{
+
+    font-family: LatoFontRegular;
+    color: #B7B7B7;
+    padding-bottom: 5px;
+    border-bottom: 2px #B7B7B7 dashed;
+    margin: 50px 10px 20px 10px;
+
+}
+
+.post h2{
+    text-transform: uppercase;
+    font-family: LatoFontItalic;
+    background-color: #B7B7B7;
+    color: white;
+    text-align: center;
+    margin: 15px 10px 10px 10px;
+    padding: 15px 100px 15px 100px
+}
+
+.post h3{
+    font-family: georgia;
+    font-style: italic;
+    background-color: #B7B7B7;
+    color: white;
+    text-align: center;
+    margin: 15px 10px 10px 10px;
+    padding: 15px 100px 15px 100px
+}
+
+.post h3 a{
+    color: white;
+    text-align: center;
+}
+
+.postDetails h5{
+    font-family: LatoFontRegular;
+    color: #B7B7B7;
+    margin-left: 10px;
+    float: left;
+
+}
+.postDetails h5>span{
+    color: black;
+}
+.postDetails>h6{
+    font-family: georgia;
+    font-style: italic;
+    color: #B7B7B7;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#fullPost{
+    border: 2px black dashed;
+    float: left;
+    width: 630px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#fullPost>h2{
+    text-transform: uppercase;
+    font-family: LatoFontItalic;
+    background-color: #B7B7B7;
+    color: white;
+    text-align: center;
+    margin: 15px 10px 10px 10px;
+    padding: 15px 100px 15px 100px
+}
+
+#fullPost>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#fullPost>ul>li>img{
+    width: 610px;
+    height: auto;
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+
+#fullPost>ul>li>img:hover{
+    opacity: 0.7;
+}
+
+#fullPost>p>span{
+    text-transform: uppercase;
+    font-family: LatoFontLightItalic;
+    font-size: 35px;
+
+}
+
+#fullPost p{
+    margin: 20px 10px 20px 10px;
+    font-family: LatoFontLightItalic;  
+}
+
+#fullPostDetails h2{
+    font-family: LatoFontRegular;
+    color: #B7B7B7;
+    margin-left: 10px;
+    float: left;
+}
+
+#fullPostDetails h2>span{
+    color: black;
+}
+
+#fullPostDetails h3{
+    font-family: georgia;
+    font-style: italic;
+    color: #B7B7B7;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+#postComments{
+
+    width: 625px;
+    margin-left: 25px; 
+    margin-top: 50px;
+    float: left;
+}
+
+#postComments>div{
+    margin-bottom: 40px;
+}
+
+
+#comment1, #comment2, #comment3, #comment4{
+/*    outline: 1px red solid;*/
+    float: left;
+    width: 100%;
+}
+
+
+
+#postComments img{
+    width: 50px;
+    height: 50px;
+/*    float: left;*/
+}
+
+#comment1 img, #comment2 img, #comment3 img, #comment4 img{
+   /* margin-top: 25px;*/
+    float: left;
+/*    outline: 1px blue solid;*/
+}
+
+#comment1 h2, #comment2 h2, #comment3 h2, #comment4 h2{
+   /* padding-top: 25px;*/
+    font-family: LatoFontRegular;
+    float: left;
+/*    outline: 1px green solid;*/
+    width: 550px;
+    margin-left: 20px;
+    color: #B7B7B7;
+
+
+}
+
+#comment1 p, #comment2 p, #comment3 p, #comment4 p{
+    float: left;
+    margin-top: 15px;
+    width: 550px;
+    margin-left: 20px;
+    font-family: LatoFontItalic;
+    font-size: 13px;
+/*    outline: 1px orange solid;*/
+}
+
+#postComments h3{
+    font-family: LatoFontItalic;
+    color: #B7B7B7;
+    padding-bottom: 20px;
+    text-align: center;
+    /*border-top: 2px black dashed;*//* FIX THIS!!!!*/
+}
+
+
+
+#footer{
+ /*   border: 1px black solid;*/
+    background-color: #363636;
+    clear: both;
+}
+#footer h1{
+    font-family: LatoFontItalic;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#footer h2{
+    font-family: georgia;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding: 35px 15px 15px 15px;
+}
